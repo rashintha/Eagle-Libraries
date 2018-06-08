@@ -96,7 +96,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="TPS92411X-5PIN">
+<symbol name="TPS92411X">
 <pin name="RSET" x="-10.16" y="7.62" length="short"/>
 <pin name="VS" x="-10.16" y="0" length="short"/>
 <pin name="VIN" x="-10.16" y="-7.62" length="short" direction="pwr"/>
@@ -111,14 +111,14 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TPS92411X(SOT23-5)" prefix="S" uservalue="yes">
+<deviceset name="TPS92411X" prefix="S" uservalue="yes">
 <description>&lt;h3&gt;TPS92411x&lt;/h3&gt;
 &lt;h4&gt;Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple
 Current&lt;/h4&gt;
 
 Location: LED -&gt; SWITCH</description>
 <gates>
-<gate name="G$1" symbol="TPS92411X-5PIN" x="0" y="0"/>
+<gate name="G$1" symbol="TPS92411X" x="0" y="0"/>
 </gates>
 <devices>
 <device name="SMD" package="SOT23-5">

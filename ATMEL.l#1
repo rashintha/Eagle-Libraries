@@ -117,7 +117,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="ATMEGA328X-32PIN">
+<symbol name="ATMEGA328X">
 <pin name="(RXD/PCINT16)PD0" x="45.72" y="48.26" length="middle" rot="R180"/>
 <pin name="(TXD/PCINT17)PD1" x="45.72" y="43.18" length="middle" rot="R180"/>
 <pin name="(INT0/PCINT18)PD2" x="45.72" y="38.1" length="middle" rot="R180"/>
@@ -160,7 +160,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATMEGA328X(TQFP-32)" prefix="U" uservalue="yes">
+<deviceset name="ATMEGA328X" prefix="U" uservalue="yes">
 <description>&lt;h3&gt;Atmega328/P&lt;/h3&gt;
 The Atmel picoPower ATmega328/P is a low-power CMOS 8-bit
 microcontroller based on the AVR ® enhanced RISC architecture. By
@@ -171,7 +171,7 @@ speed.
 &lt;br /&gt;&lt;br /&gt;
 Location: MCU/ATMEL</description>
 <gates>
-<gate name="G$1" symbol="ATMEGA328X-32PIN" x="-12.7" y="2.54"/>
+<gate name="G$1" symbol="ATMEGA328X" x="-12.7" y="2.54"/>
 </gates>
 <devices>
 <device name="SMD" package="TQFP-32">
