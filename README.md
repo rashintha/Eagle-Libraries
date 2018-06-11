@@ -12,6 +12,7 @@ This is a set of libraries that can be used with Autodesk Eagle.
 * **ATmega32A** - 8-bit AVR Microcontroller
 * **ATmega328** - 8-bit AVR Microcontroller
 * **ATmega328P** - 8-bit AVR Microcontroller
+* **ATmega1284P** - 8-bit AVR Microcontroller
 
 ### Microchip
 

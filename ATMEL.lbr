@@ -236,7 +236,7 @@
 <pin name="(TDO)PC4" x="40.64" y="-33.02" length="middle" rot="R180"/>
 <pin name="(TDI)PC5" x="40.64" y="-38.1" length="middle" rot="R180"/>
 <pin name="(TOSC1)PC6" x="40.64" y="-43.18" length="middle" rot="R180"/>
-<pin name="TOSC2(PC7)" x="40.64" y="-48.26" length="middle" rot="R180"/>
+<pin name="(TOSC2)PC7" x="40.64" y="-48.26" length="middle" rot="R180"/>
 <pin name="PD7(OC2)" x="-43.18" y="-48.26" length="middle"/>
 <pin name="PD6(ICP1)" x="-43.18" y="-43.18" length="middle"/>
 <pin name="PD5(OC1A)" x="-43.18" y="-38.1" length="middle"/>
@@ -264,6 +264,59 @@
 <text x="-7.62" y="-50.8" size="1.27" layer="97">ATmega32A (44pin)</text>
 <text x="-35.56" y="83.82" size="1.778" layer="95">&gt;NAME</text>
 <text x="-38.1" y="-60.96" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ATMEGA1284P-44PIN">
+<pin name="(ADC0/PCINT0)PA0" x="40.64" y="73.66" length="middle" rot="R180"/>
+<pin name="(ADC1/PCINT1)PA1" x="40.64" y="68.58" length="middle" rot="R180"/>
+<pin name="(ADC2/PCINT2)PA2" x="40.64" y="63.5" length="middle" rot="R180"/>
+<pin name="(ADC3/PCINT3)PA3" x="40.64" y="58.42" length="middle" rot="R180"/>
+<pin name="(ADC4/PCINT4)PA4" x="40.64" y="53.34" length="middle" rot="R180"/>
+<pin name="(ADC5/PCINT5)PA5" x="40.64" y="48.26" length="middle" rot="R180"/>
+<pin name="(ADC6/PCINT6)PA6" x="40.64" y="43.18" length="middle" rot="R180"/>
+<pin name="(ADC7/PCINT7)PA7" x="40.64" y="38.1" length="middle" rot="R180"/>
+<pin name="(XCK0/T0/PCINT8)PB0" x="40.64" y="30.48" length="middle" rot="R180"/>
+<pin name="(T1/CLKO/PCINT9)PB1" x="40.64" y="25.4" length="middle" rot="R180"/>
+<pin name="(AIN0/INT2/PCINT10)PB2" x="40.64" y="20.32" length="middle" rot="R180"/>
+<pin name="(AIN1/OC0A/PCINT11)PB3" x="40.64" y="15.24" length="middle" rot="R180"/>
+<pin name="(!SS!/OC0B/PCINT12)PB4" x="40.64" y="10.16" length="middle" rot="R180"/>
+<pin name="(MOSI/PCINT13)PB5" x="40.64" y="5.08" length="middle" rot="R180"/>
+<pin name="(MISO/OC3A/PCINT14)PB6" x="40.64" y="0" length="middle" rot="R180"/>
+<pin name="(SCK/OC3B/PCINT15)PB7" x="40.64" y="-5.08" length="middle" rot="R180"/>
+<pin name="(SCL/PCINT16)PC0" x="40.64" y="-12.7" length="middle" rot="R180"/>
+<pin name="(SDA/PCINT17)PC1" x="40.64" y="-17.78" length="middle" rot="R180"/>
+<pin name="(TCK/PCINT18)PC2" x="40.64" y="-22.86" length="middle" rot="R180"/>
+<pin name="(TMS/PCINT19)PC3" x="40.64" y="-27.94" length="middle" rot="R180"/>
+<pin name="(TDO/PCINT20)PC4" x="40.64" y="-33.02" length="middle" rot="R180"/>
+<pin name="(TDI/PCINT21)PC5" x="40.64" y="-38.1" length="middle" rot="R180"/>
+<pin name="(TOSC1/PCINT22)PC6" x="40.64" y="-43.18" length="middle" rot="R180"/>
+<pin name="(TOSC2/PCINT23)PC7" x="40.64" y="-48.26" length="middle" rot="R180"/>
+<pin name="PD7(OC2A/PCINT31)" x="-43.18" y="-48.26" length="middle"/>
+<pin name="PD6(ICP1/OC2B/PCINT30)" x="-43.18" y="-43.18" length="middle"/>
+<pin name="PD5(OC1A/PCINT29)" x="-43.18" y="-38.1" length="middle"/>
+<pin name="PD4(OC1B/XCK1/PCINT28)" x="-43.18" y="-33.02" length="middle"/>
+<pin name="PD3(TXD1/INT1/PCINT27)" x="-43.18" y="-27.94" length="middle"/>
+<pin name="PD2(RXD1/INT0/PCINT26)" x="-43.18" y="-22.86" length="middle"/>
+<pin name="PD1(TXD0/PCINT25)" x="-43.18" y="-17.78" length="middle"/>
+<pin name="PD0(RXD0/T3/PCINT24)" x="-43.18" y="-12.7" length="middle"/>
+<pin name="VCC@1" x="-43.18" y="73.66" length="middle" direction="pwr"/>
+<pin name="VCC@2" x="-43.18" y="68.58" length="middle" direction="pwr"/>
+<pin name="VCC@3" x="-43.18" y="63.5" length="middle" direction="pwr"/>
+<pin name="AVCC" x="-43.18" y="55.88" length="middle" direction="sup"/>
+<pin name="GND@1" x="-43.18" y="38.1" length="middle" direction="pwr"/>
+<pin name="GND@2" x="-43.18" y="33.02" length="middle" direction="pwr"/>
+<pin name="GND@3" x="-43.18" y="27.94" length="middle" direction="pwr"/>
+<pin name="GND@4" x="-43.18" y="22.86" length="middle" direction="pwr"/>
+<pin name="!RESET!" x="-43.18" y="12.7" length="middle" direction="in"/>
+<pin name="XTAL1" x="-43.18" y="2.54" length="middle" direction="in"/>
+<pin name="XTAL2" x="-43.18" y="-2.54" length="middle" direction="out"/>
+<pin name="AREF" x="-43.18" y="48.26" length="middle" direction="in"/>
+<wire x1="-38.1" y1="78.74" x2="35.56" y2="78.74" width="0.254" layer="94"/>
+<wire x1="35.56" y1="78.74" x2="35.56" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-53.34" x2="-38.1" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="-53.34" x2="-38.1" y2="78.74" width="0.254" layer="94"/>
+<text x="-35.56" y="83.82" size="1.778" layer="95">&gt;NAME</text>
+<text x="-38.1" y="-60.96" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-15.24" y="-50.8" size="1.778" layer="97">ATmega1284P (44pin)</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -359,6 +412,7 @@ Location: MCU/ATMEL</description>
 <connect gate="G$1" pin="(TDO)PC4" pad="23"/>
 <connect gate="G$1" pin="(TMS)PC3" pad="22"/>
 <connect gate="G$1" pin="(TOSC1)PC6" pad="25"/>
+<connect gate="G$1" pin="(TOSC2)PC7" pad="26"/>
 <connect gate="G$1" pin="(XCK/T0)PB0" pad="40"/>
 <connect gate="G$1" pin="AREF" pad="29"/>
 <connect gate="G$1" pin="AVCC" pad="27"/>
@@ -374,7 +428,6 @@ Location: MCU/ATMEL</description>
 <connect gate="G$1" pin="PD5(OC1A)" pad="14"/>
 <connect gate="G$1" pin="PD6(ICP1)" pad="15"/>
 <connect gate="G$1" pin="PD7(OC2)" pad="16"/>
-<connect gate="G$1" pin="TOSC2(PC7)" pad="26"/>
 <connect gate="G$1" pin="VCC@1" pad="5"/>
 <connect gate="G$1" pin="VCC@2" pad="17"/>
 <connect gate="G$1" pin="VCC@3" pad="38"/>
@@ -435,6 +488,73 @@ Location: MCU/ATMEL</description>
 <connect gate="G$1" pin="PC6(!RESET!/PCINT14)" pad="29"/>
 <connect gate="G$1" pin="VCC@1" pad="4"/>
 <connect gate="G$1" pin="VCC@2" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATMEGA1284P" prefix="MCU" uservalue="yes">
+<description>&lt;h3&gt;Atmel ATmega1284P&lt;/h3&gt;
+The Atmel picoPower ATmega1284P is a low-power CMOS 8-bit
+microcontroller based on the AVR ® enhanced RISC architecture. By
+executing powerful instructions in a single clock cycle, the ATmega1284P
+achieves throughputs close to 1MIPS per MHz. This empowers system
+designer to optimize the device for power consumption versus processing
+speed.
+&lt;br /&gt;&lt;br /&gt;
+Location: MCU/ATMEL</description>
+<gates>
+<gate name="G$1" symbol="ATMEGA1284P-44PIN" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="SMD" package="TQFP-44">
+<connects>
+<connect gate="G$1" pin="!RESET!" pad="4"/>
+<connect gate="G$1" pin="(!SS!/OC0B/PCINT12)PB4" pad="44"/>
+<connect gate="G$1" pin="(ADC0/PCINT0)PA0" pad="37"/>
+<connect gate="G$1" pin="(ADC1/PCINT1)PA1" pad="36"/>
+<connect gate="G$1" pin="(ADC2/PCINT2)PA2" pad="35"/>
+<connect gate="G$1" pin="(ADC3/PCINT3)PA3" pad="34"/>
+<connect gate="G$1" pin="(ADC4/PCINT4)PA4" pad="33"/>
+<connect gate="G$1" pin="(ADC5/PCINT5)PA5" pad="32"/>
+<connect gate="G$1" pin="(ADC6/PCINT6)PA6" pad="31"/>
+<connect gate="G$1" pin="(ADC7/PCINT7)PA7" pad="30"/>
+<connect gate="G$1" pin="(AIN0/INT2/PCINT10)PB2" pad="42"/>
+<connect gate="G$1" pin="(AIN1/OC0A/PCINT11)PB3" pad="43"/>
+<connect gate="G$1" pin="(MISO/OC3A/PCINT14)PB6" pad="2"/>
+<connect gate="G$1" pin="(MOSI/PCINT13)PB5" pad="1"/>
+<connect gate="G$1" pin="(SCK/OC3B/PCINT15)PB7" pad="3"/>
+<connect gate="G$1" pin="(SCL/PCINT16)PC0" pad="19"/>
+<connect gate="G$1" pin="(SDA/PCINT17)PC1" pad="20"/>
+<connect gate="G$1" pin="(T1/CLKO/PCINT9)PB1" pad="41"/>
+<connect gate="G$1" pin="(TCK/PCINT18)PC2" pad="21"/>
+<connect gate="G$1" pin="(TDI/PCINT21)PC5" pad="24"/>
+<connect gate="G$1" pin="(TDO/PCINT20)PC4" pad="23"/>
+<connect gate="G$1" pin="(TMS/PCINT19)PC3" pad="22"/>
+<connect gate="G$1" pin="(TOSC1/PCINT22)PC6" pad="25"/>
+<connect gate="G$1" pin="(TOSC2/PCINT23)PC7" pad="26"/>
+<connect gate="G$1" pin="(XCK0/T0/PCINT8)PB0" pad="40"/>
+<connect gate="G$1" pin="AREF" pad="29"/>
+<connect gate="G$1" pin="AVCC" pad="27"/>
+<connect gate="G$1" pin="GND@1" pad="6"/>
+<connect gate="G$1" pin="GND@2" pad="18"/>
+<connect gate="G$1" pin="GND@3" pad="28"/>
+<connect gate="G$1" pin="GND@4" pad="39"/>
+<connect gate="G$1" pin="PD0(RXD0/T3/PCINT24)" pad="9"/>
+<connect gate="G$1" pin="PD1(TXD0/PCINT25)" pad="10"/>
+<connect gate="G$1" pin="PD2(RXD1/INT0/PCINT26)" pad="11"/>
+<connect gate="G$1" pin="PD3(TXD1/INT1/PCINT27)" pad="12"/>
+<connect gate="G$1" pin="PD4(OC1B/XCK1/PCINT28)" pad="13"/>
+<connect gate="G$1" pin="PD5(OC1A/PCINT29)" pad="14"/>
+<connect gate="G$1" pin="PD6(ICP1/OC2B/PCINT30)" pad="15"/>
+<connect gate="G$1" pin="PD7(OC2A/PCINT31)" pad="16"/>
+<connect gate="G$1" pin="VCC@1" pad="5"/>
+<connect gate="G$1" pin="VCC@2" pad="17"/>
+<connect gate="G$1" pin="VCC@3" pad="38"/>
+<connect gate="G$1" pin="XTAL1" pad="8"/>
+<connect gate="G$1" pin="XTAL2" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
