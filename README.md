@@ -36,4 +36,5 @@ This is a set of libraries that can be used with Autodesk Eagle.
 * **TPS92411P** - Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple Current
 
 ## Developers
-* **[Rashintha Maduneth](https://www.facebook.com/Rashintha)**
+* **[Rashintha Maduneth](https://www.facebook.com/Rashintha)** 
+Please drop me an email to [rashintha@whileart.com](mailto:rashintha@whileart.com) if you need to request a library for any componnent.
