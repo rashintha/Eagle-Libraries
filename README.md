@@ -14,6 +14,11 @@ This is a set of libraries that can be used with Autodesk Eagle.
 * **ATmega328P** - 8-bit AVR Microcontroller
 
 ### Microchip
+
+* [8 bit MCU](#8-bit-mcu)
+
+#### 8 bit MCU
+
 * **PIC10F200** - 6-Pin, 8-Bit Flash Microcontroller
 * **PIC10F202** - 6-Pin, 8-Bit Flash Microcontroller
 * **PIC10F204** - 6-Pin, 8-Bit Flash Microcontroller
