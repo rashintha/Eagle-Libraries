@@ -267,7 +267,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATMEGA328X(TQFP-32)" prefix="U" uservalue="yes">
+<deviceset name="ATMEGA328P" prefix="MCU" uservalue="yes">
 <description>&lt;h3&gt;Atmega328/P&lt;/h3&gt;
 The Atmel picoPower ATmega328/P is a low-power CMOS 8-bit
 microcontroller based on the AVR ® enhanced RISC architecture. By
@@ -322,7 +322,7 @@ Location: MCU/ATMEL</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA32A(TQFP-44)" prefix="U" uservalue="yes">
+<deviceset name="ATMEGA32A" prefix="MCU" uservalue="yes">
 <description>&lt;h3&gt;ATmega32A&lt;/h3&gt;
 The Atmel ATmega32A is a low-power CMOS 8-bit microcontroller based on the AVR® enhanced RISC architecture. By executing powerful instructions
 in a single clock cycle, the ATmega32A achieves throughputs close to
@@ -380,6 +380,61 @@ Location: MCU/ATMEL</description>
 <connect gate="G$1" pin="VCC@3" pad="38"/>
 <connect gate="G$1" pin="XTAL1" pad="8"/>
 <connect gate="G$1" pin="XTAL2" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATMEGA328" prefix="MCU" uservalue="yes">
+<description>&lt;h3&gt;Atmega328/P&lt;/h3&gt;
+The Atmel picoPower ATmega328/P is a low-power CMOS 8-bit
+microcontroller based on the AVR ® enhanced RISC architecture. By
+executing powerful instructions in a single clock cycle, the ATmega328/P
+achieves throughputs close to 1MIPS per MHz. This empowers system
+designer to optimize the device for power consumption versus processing
+speed.
+&lt;br /&gt;&lt;br /&gt;
+Location: MCU/ATMEL</description>
+<gates>
+<gate name="G$1" symbol="ATMEGA328X-32PIN" x="-12.7" y="2.54"/>
+</gates>
+<devices>
+<device name="SMD" package="TQFP-32">
+<connects>
+<connect gate="G$1" pin="(AIN0/OC0A/PCINT22)PD6" pad="10"/>
+<connect gate="G$1" pin="(AIN1/PCINT23)PD7" pad="11"/>
+<connect gate="G$1" pin="(ICP1/CLKO/PCINT0)PB0" pad="12"/>
+<connect gate="G$1" pin="(INT0/PCINT18)PD2" pad="32"/>
+<connect gate="G$1" pin="(INT1/OC2B/PCINT19)PD3" pad="1"/>
+<connect gate="G$1" pin="(MISO/PCINT4)PB4" pad="16"/>
+<connect gate="G$1" pin="(MOSI/OC2A/PCINT3)PB3" pad="15"/>
+<connect gate="G$1" pin="(OC1A/PCINT1)PB1" pad="13"/>
+<connect gate="G$1" pin="(OC1B/!SS!/PCINT2)PB2" pad="14"/>
+<connect gate="G$1" pin="(RXD/PCINT16)PD0" pad="30"/>
+<connect gate="G$1" pin="(SCK/PCINT5)PB5" pad="17"/>
+<connect gate="G$1" pin="(T0/XCK/PCINT20)PD4" pad="2"/>
+<connect gate="G$1" pin="(T1/OC0B/PCINT21)PD5" pad="9"/>
+<connect gate="G$1" pin="(TOSC1/XTAL1/PCINT6)PB6" pad="7"/>
+<connect gate="G$1" pin="(TOSC2/XTAL2/PCINT7)PB7" pad="8"/>
+<connect gate="G$1" pin="(TXD/PCINT17)PD1" pad="31"/>
+<connect gate="G$1" pin="ADC6" pad="19"/>
+<connect gate="G$1" pin="ADC7" pad="22"/>
+<connect gate="G$1" pin="AREF" pad="20"/>
+<connect gate="G$1" pin="AVCC" pad="18"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="GND@3" pad="21"/>
+<connect gate="G$1" pin="PC0(ADC0/PCINT8)" pad="23"/>
+<connect gate="G$1" pin="PC1(ADC1/PCINT9)" pad="24"/>
+<connect gate="G$1" pin="PC2(ADC2/PCINT10)" pad="25"/>
+<connect gate="G$1" pin="PC3(ADC3/PCINT11)" pad="26"/>
+<connect gate="G$1" pin="PC4(ADC4/SDA/PCINT12)" pad="27"/>
+<connect gate="G$1" pin="PC5(ADC5/SCL/PCINT13)" pad="28"/>
+<connect gate="G$1" pin="PC6(!RESET!/PCINT14)" pad="29"/>
+<connect gate="G$1" pin="VCC@1" pad="4"/>
+<connect gate="G$1" pin="VCC@2" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
