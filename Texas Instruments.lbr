@@ -94,6 +94,23 @@
 <text x="-3.3" y="1.95" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.7" y="-3.05" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOIC-8">
+<smd name="1" x="-1.905" y="-2.475" dx="1.05" dy="0.41" layer="1" rot="R90"/>
+<smd name="2" x="-0.635" y="-2.475" dx="1.05" dy="0.41" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="-2.475" dx="1.05" dy="0.41" layer="1" rot="R90"/>
+<smd name="4" x="1.905" y="-2.475" dx="1.05" dy="0.41" layer="1" rot="R90"/>
+<smd name="5" x="1.905" y="2.475" dx="1.05" dy="0.41" layer="1" rot="R90"/>
+<smd name="6" x="0.635" y="2.475" dx="1.05" dy="0.41" layer="1" rot="R90"/>
+<smd name="7" x="-0.635" y="2.475" dx="1.05" dy="0.41" layer="1" rot="R90"/>
+<smd name="8" x="-1.905" y="2.475" dx="1.05" dy="0.41" layer="1" rot="R90"/>
+<wire x1="-2.2" y1="1.7" x2="2.2" y2="1.7" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.7" x2="2.2" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.7" x2="-2.2" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.7" x2="-2.2" y2="1.7" width="0.127" layer="21"/>
+<circle x="-1.685" y="-1.195" radius="0.23716875" width="0" layer="21"/>
+<text x="-3.265" y="4.57" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.82" y="-5.475" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS92411X-5PIN">
@@ -108,6 +125,22 @@
 <wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
 <text x="-2.54" y="12.7" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LM5100/5101">
+<pin name="VDD" x="-22.86" y="12.7" length="middle" direction="pwr"/>
+<pin name="HI" x="-22.86" y="0" length="middle" direction="in"/>
+<pin name="LI" x="-22.86" y="-12.7" length="middle" direction="in"/>
+<pin name="HO" x="22.86" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="HS" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="LO" x="22.86" y="-12.7" length="middle" direction="out" rot="R180"/>
+<pin name="HB" x="0" y="27.94" length="middle" rot="R270"/>
+<pin name="VSS" x="0" y="-27.94" length="middle" direction="pwr" rot="R90"/>
+<wire x1="-17.78" y1="22.86" x2="17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="22.86" x2="17.78" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-22.86" x2="-17.78" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
+<text x="-5.08" y="0" size="1.27" layer="97">LM5100</text>
+<text x="-5.08" y="-2.54" size="1.27" layer="97">LM5101</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -152,6 +185,66 @@ Location: LED -&gt; SWITCH</description>
 <connect gate="G$1" pin="RSNS" pad="5"/>
 <connect gate="G$1" pin="VIN" pad="3"/>
 <connect gate="G$1" pin="VS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM5100" prefix="Q" uservalue="yes">
+<description>&lt;h3&gt;LM5100&lt;/h3&gt;
+&lt;b&gt;High Voltage High Side and Low Side Gate Driver (CMOS)&lt;/b&gt;
+&lt;br /&gt;
+The LM5100 High Voltage Gate Driver is designed to drive both the high side and the low side N-Channel MOSFETs in a synchronous buck or a half bridge configuration. The floating high-side driver
+is capable of operating with supply voltages up to 100V. The outputs are independently controlled with CMOS input thresholds (LM5100). An integrated high voltage diode is provided to charge the high side gate drive bootstrap capacitor. A robust level shifter operates at high speed while consuming low power and providing
+clean level transitions from the control logic to the high side gate driver. Under-voltage lockout is provided on both the low side and the high side power rails. This device is available in the standard SOIC-8 pin and the WSON-10 pin packages.
+&lt;br /&gt;&lt;br /&gt;
+Location: MOSFET/Gate Drivers</description>
+<gates>
+<gate name="G$1" symbol="LM5100/5101" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="HB" pad="2"/>
+<connect gate="G$1" pin="HI" pad="5"/>
+<connect gate="G$1" pin="HO" pad="3"/>
+<connect gate="G$1" pin="HS" pad="4"/>
+<connect gate="G$1" pin="LI" pad="6"/>
+<connect gate="G$1" pin="LO" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM5101" prefix="Q" uservalue="yes">
+<description>&lt;h3&gt;LM5101&lt;/h3&gt;
+&lt;b&gt;High Voltage High Side and Low Side Gate Driver (TTL)&lt;/b&gt;
+&lt;br /&gt;
+The LM5101 High Voltage Gate Driver is designed to drive both the high side and the low side N-Channel MOSFETs in a synchronous buck or a half bridge configuration. The floating high-side driver
+is capable of operating with supply voltages up to 100V. The outputs are independently controlled with TTL input thresholds (LM5101). An integrated high voltage diode is provided to charge the high side gate drive bootstrap capacitor. A robust level shifter operates at high speed while consuming low power and providing
+clean level transitions from the control logic to the high side gate driver. Under-voltage lockout is provided on both the low side and the high side power rails. This device is available in the standard SOIC-8 pin and the WSON-10 pin packages.
+&lt;br /&gt;&lt;br /&gt;
+Location: MOSFET/Gate Drivers</description>
+<gates>
+<gate name="G$1" symbol="LM5100/5101" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="HB" pad="2"/>
+<connect gate="G$1" pin="HI" pad="5"/>
+<connect gate="G$1" pin="HO" pad="3"/>
+<connect gate="G$1" pin="HS" pad="4"/>
+<connect gate="G$1" pin="LI" pad="6"/>
+<connect gate="G$1" pin="LO" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -46,5 +46,7 @@ This is a set of libraries that can be used with Autodesk Eagle.
 * **PIC10LF322** - 6-Pin Flash-Based, 8-Bit Microcontroller, eXtreme Low-Power
 
 ### Texas Instruments
+* **LM5100** - High Voltage High Side and Low Side Gate Driver (CMOS)
+* **LM5101** - High Voltage High Side and Low Side Gate Driver (TTL)
 * **TPS92411** - Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple Current
 * **TPS92411P** - Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple Current
