@@ -25,6 +25,10 @@ This is a set of libraries that can be used with Autodesk Eagle.
 * **PIC10F206** - 6-Pin, 8-Bit Flash Microcontroller
 * **PIC10F220** - 6-Pin, 8-Bit Flash Microcontroller
 * **PIC10F222** - 6-Pin, 8-Bit Flash Microcontroller
+* **PIC10F320** - 6-Pin Flash-Based, 8-Bit Microcontroller
+* **PIC10LF320** - 6-Pin Flash-Based, 8-Bit Microcontroller, eXtreme Low-Power
+* **PIC10F322** - 6-Pin Flash-Based, 8-Bit Microcontroller
+* **PIC10LF322** - 6-Pin Flash-Based, 8-Bit Microcontroller, eXtreme Low-Power
 
 ### Texas Instruments
 * **TPS92411** - Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple Current

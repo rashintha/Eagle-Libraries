@@ -135,6 +135,21 @@
 <text x="-25.4" y="-27.94" size="1.27" layer="96">&gt;VALUE</text>
 <text x="-7.62" y="-20.32" size="1.778" layer="97">PIC10F220/222</text>
 </symbol>
+<symbol name="PIC10(L)F320/322">
+<pin name="RA3/!MCLR!/VPP" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="VDD" x="30.48" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="RA2" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="ICSPDAT/RA0" x="-30.48" y="12.7" length="middle"/>
+<pin name="VSS" x="-30.48" y="0" length="middle" direction="pwr"/>
+<pin name="ICSPCLK/RA1" x="-30.48" y="-12.7" length="middle"/>
+<wire x1="-25.4" y1="22.86" x2="25.4" y2="22.86" width="0.254" layer="94"/>
+<wire x1="25.4" y1="22.86" x2="25.4" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-22.86" x2="-25.4" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-22.86" x2="-25.4" y2="22.86" width="0.254" layer="94"/>
+<text x="-25.4" y="27.94" size="1.27" layer="95">&gt;NAME</text>
+<text x="-25.4" y="-27.94" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="-20.32" size="1.778" layer="97">PIC10(L)F320/322</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PIC10F200" prefix="MCU" uservalue="yes">
@@ -354,6 +369,102 @@ Location: MCU/MICROCHIP</description>
 <connect gate="G$1" pin="GP1/AN1/ICSPCLK" pad="3"/>
 <connect gate="G$1" pin="GP2/T0CKI/FOSC4" pad="4"/>
 <connect gate="G$1" pin="GP3/!MCLR!/VPP" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC10F320" prefix="MCU" uservalue="yes">
+<description>&lt;h3&gt;Microchip PIC10F320&lt;/h3&gt;
+6-Pin Flash-Based, 8-Bit Microcontroller
+&lt;br /&gt;&lt;br /&gt;
+Location: MCU/MICROCHIP</description>
+<gates>
+<gate name="G$1" symbol="PIC10(L)F320/322" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="ICSPCLK/RA1" pad="3"/>
+<connect gate="G$1" pin="ICSPDAT/RA0" pad="1"/>
+<connect gate="G$1" pin="RA2" pad="4"/>
+<connect gate="G$1" pin="RA3/!MCLR!/VPP" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC10LF320" prefix="MCU" uservalue="yes">
+<description>&lt;h3&gt;Microchip PIC10LF320 eXtreme Low-Power&lt;/h3&gt;
+6-Pin Flash-Based, 8-Bit Microcontroller
+&lt;br /&gt;&lt;br /&gt;
+Location: MCU/MICROCHIP</description>
+<gates>
+<gate name="G$1" symbol="PIC10(L)F320/322" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="ICSPCLK/RA1" pad="3"/>
+<connect gate="G$1" pin="ICSPDAT/RA0" pad="1"/>
+<connect gate="G$1" pin="RA2" pad="4"/>
+<connect gate="G$1" pin="RA3/!MCLR!/VPP" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC10F322" prefix="MCU" uservalue="yes">
+<description>&lt;h3&gt;Microchip PIC10F322&lt;/h3&gt;
+6-Pin Flash-Based, 8-Bit Microcontroller
+&lt;br /&gt;&lt;br /&gt;
+Location: MCU/MICROCHIP</description>
+<gates>
+<gate name="G$1" symbol="PIC10(L)F320/322" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="ICSPCLK/RA1" pad="3"/>
+<connect gate="G$1" pin="ICSPDAT/RA0" pad="1"/>
+<connect gate="G$1" pin="RA2" pad="4"/>
+<connect gate="G$1" pin="RA3/!MCLR!/VPP" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC10LF322" prefix="MCU" uservalue="yes">
+<description>&lt;h3&gt;Microchip PIC10LF322 eXtreme Low-Power&lt;/h3&gt;
+6-Pin Flash-Based, 8-Bit Microcontroller
+&lt;br /&gt;&lt;br /&gt;
+Location: MCU/MICROCHIP</description>
+<gates>
+<gate name="G$1" symbol="PIC10(L)F320/322" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="ICSPCLK/RA1" pad="3"/>
+<connect gate="G$1" pin="ICSPDAT/RA0" pad="1"/>
+<connect gate="G$1" pin="RA2" pad="4"/>
+<connect gate="G$1" pin="RA3/!MCLR!/VPP" pad="6"/>
 <connect gate="G$1" pin="VDD" pad="5"/>
 <connect gate="G$1" pin="VSS" pad="2"/>
 </connects>
