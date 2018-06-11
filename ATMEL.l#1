@@ -268,10 +268,10 @@
 </symbols>
 <devicesets>
 <deviceset name="ATMEGA328P" prefix="MCU" uservalue="yes">
-<description>&lt;h3&gt;Atmega328P&lt;/h3&gt;
-The Atmel picoPower ATmega328P is a low-power CMOS 8-bit
+<description>&lt;h3&gt;Atmega328/P&lt;/h3&gt;
+The Atmel picoPower ATmega328/P is a low-power CMOS 8-bit
 microcontroller based on the AVR ® enhanced RISC architecture. By
-executing powerful instructions in a single clock cycle, the ATmega328P
+executing powerful instructions in a single clock cycle, the ATmega328/P
 achieves throughputs close to 1MIPS per MHz. This empowers system
 designer to optimize the device for power consumption versus processing
 speed.

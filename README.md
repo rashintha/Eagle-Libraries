@@ -3,9 +3,6 @@ This is a set of libraries that can be used with Autodesk Eagle.
 
 ## Available Libraries
 
-### Texas Instruments
-* **TPS92411x** - Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple Current
-
 ### Atmel
 * **ATmega328** - 8-bit AVR Microcontroller
 * **ATmega328P** - 8-bit AVR Microcontroller
@@ -16,6 +13,10 @@ This is a set of libraries that can be used with Autodesk Eagle.
 * **PIC10F202** - 6-Pin, 8-Bit Flash Microcontroller
 * **PIC10F204** - 6-Pin, 8-Bit Flash Microcontroller
 * **PIC10F206** - 6-Pin, 8-Bit Flash Microcontroller
+
+### Texas Instruments
+* **TPS92411** - Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple Current
+* **TPS92411P** - Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple Current
 
 ## Developers
 * **[Rashintha Maduneth](https://www.facebook.com/Rashintha)**

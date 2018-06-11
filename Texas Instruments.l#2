@@ -111,32 +111,8 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TPS92411" prefix="S" uservalue="yes">
-<description>&lt;h3&gt;TPS92411&lt;/h3&gt;
-&lt;h4&gt;Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple
-Current&lt;/h4&gt;
-
-Location: LED -&gt; SWITCH</description>
-<gates>
-<gate name="G$1" symbol="TPS92411X-5PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="SOT23-5">
-<connects>
-<connect gate="G$1" pin="DRAIN" pad="4"/>
-<connect gate="G$1" pin="RSET" pad="1"/>
-<connect gate="G$1" pin="RSNS" pad="5"/>
-<connect gate="G$1" pin="VIN" pad="3"/>
-<connect gate="G$1" pin="VS" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TPS92411P" prefix="S" uservalue="yes">
-<description>&lt;h3&gt;TPS92411P&lt;/h3&gt;
+<deviceset name="TPS92411X(SOT23-5)" prefix="S" uservalue="yes">
+<description>&lt;h3&gt;TPS92411x&lt;/h3&gt;
 &lt;h4&gt;Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple
 Current&lt;/h4&gt;
 

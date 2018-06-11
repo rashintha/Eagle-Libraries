@@ -112,7 +112,7 @@
 </symbols>
 <devicesets>
 <deviceset name="TPS92411" prefix="S" uservalue="yes">
-<description>&lt;h3&gt;TPS92411&lt;/h3&gt;
+<description>&lt;h3&gt;TPS92411x&lt;/h3&gt;
 &lt;h4&gt;Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple
 Current&lt;/h4&gt;
 
