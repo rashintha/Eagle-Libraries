@@ -1,6 +1,19 @@
 ﻿# Eagle Libraries
 This is a set of libraries that can be used with Autodesk Eagle.
 
+### Outline
+- **[Developers](#developers)**
+- **[Available Libraries](#available-libraries)**
+  - **[List of Manufacturers](#list-of-manufacturers)**
+  - **[Atmel](#atmel)**
+  - **[Microchip](#microchip)**
+    - [8 bit MCU](#8-bit-mcu)
+  - **[Texas Instruments](#texas-instruments)**
+
+## Developers
+* **[Rashintha Maduneth](https://www.facebook.com/Rashintha)** 
+> Please drop me an email to [rashintha@whileart.com](mailto:rashintha@whileart.com) if you need to request a library for any componnent.
+
 ## Available Libraries
 
 #### List of Manufacturers
@@ -34,7 +47,3 @@ This is a set of libraries that can be used with Autodesk Eagle.
 ### Texas Instruments
 * **TPS92411** - Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple Current
 * **TPS92411P** - Floating Switch for Offline AC Linear Direct Drive of LEDs with Low Ripple Current
-
-## Developers
-* **[Rashintha Maduneth](https://www.facebook.com/Rashintha)** 
-Please drop me an email to [rashintha@whileart.com](mailto:rashintha@whileart.com) if you need to request a library for any componnent.
