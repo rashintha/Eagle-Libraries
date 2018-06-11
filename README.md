@@ -1,18 +1,19 @@
 ﻿# Eagle Libraries
 This is a set of libraries that can be used with Autodesk Eagle.
 
+## Developers
+* **[Rashintha Maduneth](https://www.facebook.com/Rashintha)** 
+> Please drop me an email to [rashintha@whileart.com](mailto:rashintha@whileart.com) if you need to request a library for any componnent.
+
 ### Outline
 - **[Developers](#developers)**
+- **[Outline](#outline)**
 - **[Available Libraries](#available-libraries)**
   - **[List of Manufacturers](#list-of-manufacturers)**
   - **[Atmel](#atmel)**
   - **[Microchip](#microchip)**
     - [8 bit MCU](#8-bit-mcu)
   - **[Texas Instruments](#texas-instruments)**
-
-## Developers
-* **[Rashintha Maduneth](https://www.facebook.com/Rashintha)** 
-> Please drop me an email to [rashintha@whileart.com](mailto:rashintha@whileart.com) if you need to request a library for any componnent.
 
 ## Available Libraries
 
