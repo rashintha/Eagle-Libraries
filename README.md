@@ -13,6 +13,7 @@ This is a set of libraries that can be used with Autodesk Eagle.
   - **[Atmel](#atmel)**
   - **[Microchip](#microchip)**
     - [8 bit MCU](#8-bit-mcu)
+  - **[On Semiconductor](#on-semiconductor)**
   - **[Texas Instruments](#texas-instruments)**
 
 ## Available Libraries
@@ -44,6 +45,10 @@ This is a set of libraries that can be used with Autodesk Eagle.
 * **PIC10LF320** - 6-Pin Flash-Based, 8-Bit Microcontroller, eXtreme Low-Power
 * **PIC10F322** - 6-Pin Flash-Based, 8-Bit Microcontroller
 * **PIC10LF322** - 6-Pin Flash-Based, 8-Bit Microcontroller, eXtreme Low-Power
+
+### On Semiconductor
+
+* **FDS9945** - 60V N-Channel PowerTrench MOSFET
 
 ### Texas Instruments
 * **LM5100** - High Voltage High Side and Low Side Gate Driver (CMOS)
