@@ -11,6 +11,7 @@ This is a set of libraries that can be used with Autodesk Eagle.
 - **[Available Libraries](#available-libraries)**
   - **[List of Manufacturers](#list-of-manufacturers)**
   - **[Atmel](#atmel)**
+  - **[International Rectifier](#international-rectifier)**
   - **[Microchip](#microchip)**
     - [8 bit MCU](#8-bit-mcu)
   - **[On Semiconductor](#on-semiconductor)**
@@ -20,8 +21,10 @@ This is a set of libraries that can be used with Autodesk Eagle.
 
 #### List of Manufacturers
 * [Atmel](#atmel)
+* [International Rectifier](#international-rectifier)
 * [Microchip](#microchip)
 * [Texas Instruments](#texas-instruments)
+* [On Semiconductor](#on-semiconductor)
 
 ### Atmel
 * **ATmega32A** - 8-bit AVR Microcontroller
@@ -29,12 +32,14 @@ This is a set of libraries that can be used with Autodesk Eagle.
 * **ATmega328P** - 8-bit AVR Microcontroller
 * **ATmega1284P** - 8-bit AVR Microcontroller
 
+### International Rectifier
+* **IRFZ44N** - Advanced HEXFET ® Power MOSFET
+
 ### Microchip
 
 * [8 bit MCU](#8-bit-mcu)
 
 #### 8 bit MCU
-
 * **PIC10F200** - 6-Pin, 8-Bit Flash Microcontroller
 * **PIC10F202** - 6-Pin, 8-Bit Flash Microcontroller
 * **PIC10F204** - 6-Pin, 8-Bit Flash Microcontroller
