@@ -223,7 +223,7 @@ Location: MOSFET/N Channel</description>
 <gate name="G$1" symbol="MOSFET(D)" x="0" y="0"/>
 </gates>
 <devices>
-<device name="HORIZONTAL" package="TO-220AB_H">
+<device name="H" package="TO-220AB_H">
 <connects>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="G" pad="1"/>
@@ -233,7 +233,7 @@ Location: MOSFET/N Channel</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="VERTICAL" package="TO-220AB_V">
+<device name="V" package="TO-220AB_V">
 <connects>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="G" pad="1"/>

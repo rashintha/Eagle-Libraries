@@ -200,7 +200,42 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IRFZ44N" prefix="Q" uservalue="yes">
+<deviceset name="IRFZ44N_H" prefix="Q" uservalue="yes">
+<description>&lt;h3&gt;IRFZ44N TO-220AB Horizontal&lt;/h3&gt;
+&lt;b&gt;Advanced HEXFET ® Power MOSFET&lt;/b&gt;
+&lt;br /&gt;
+Advanced HEXFET ® Power MOSFETs from International
+Rectifier utilize advanced processing techniques to achieve
+extremely low on-resistance per silicon area. This benefit,
+combined with the fast switching speed and ruggedized
+device design that HEXFET power MOSFETs are well
+known for, provides the designer with an extremely efficient
+and reliable device for use in a wide variety of applications. 
+&lt;br /&gt;
+The TO-220 package is universally preferred for all
+commercial-industrial applications at power dissipation
+levels to approximately 50 watts. The low thermal
+resistance and low package cost of the TO-220 contribute
+to its wide acceptance throughout the industry.
+&lt;br /&gt;&lt;br /&gt;
+Location: MOSFET/N Channel</description>
+<gates>
+<gate name="G$1" symbol="MOSFET(D)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-220AB_H">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRFZ44N_V" prefix="Q" uservalue="yes">
 <description>&lt;h3&gt;IRFZ44N TO-220AB&lt;/h3&gt;
 &lt;b&gt;Advanced HEXFET ® Power MOSFET&lt;/b&gt;
 &lt;br /&gt;
@@ -223,7 +258,7 @@ Location: MOSFET/N Channel</description>
 <gate name="G$1" symbol="MOSFET(D)" x="0" y="0"/>
 </gates>
 <devices>
-<device name="HORIZONTAL" package="TO-220AB_H">
+<device name="H" package="TO-220AB_H">
 <connects>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="G" pad="1"/>
@@ -233,7 +268,7 @@ Location: MOSFET/N Channel</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="VERTICAL" package="TO-220AB_V">
+<device name="V" package="TO-220AB_V">
 <connects>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="G" pad="1"/>
