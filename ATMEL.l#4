@@ -396,8 +396,8 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATMEGA328P_TQFP" prefix="MCU" uservalue="yes">
-<description>&lt;h3&gt;Atmega328P TQFP 32pin&lt;/h3&gt;
+<deviceset name="ATMEGA328P-TQFP32" prefix="MCU" uservalue="yes">
+<description>&lt;h3&gt;Atmega328P&lt;/h3&gt;
 The Atmel picoPower ATmega328P is a low-power CMOS 8-bit
 microcontroller based on the AVR ® enhanced RISC architecture. By
 executing powerful instructions in a single clock cycle, the ATmega328P
@@ -451,7 +451,7 @@ Location: MCU/ATMEL</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA32A_TQFP" prefix="MCU" uservalue="yes">
+<deviceset name="ATMEGA32A" prefix="MCU" uservalue="yes">
 <description>&lt;h3&gt;ATmega32A TQFP 44pin&lt;/h3&gt;
 The Atmel ATmega32A is a low-power CMOS 8-bit microcontroller based on the AVR® enhanced RISC architecture. By executing powerful instructions
 in a single clock cycle, the ATmega32A achieves throughputs close to
@@ -516,8 +516,8 @@ Location: MCU/ATMEL</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA328_TQFP" prefix="MCU" uservalue="yes">
-<description>&lt;h3&gt;Atmega328 TQFP 32pin&lt;/h3&gt;
+<deviceset name="ATMEGA328-TQFP32" prefix="MCU" uservalue="yes">
+<description>&lt;h3&gt;Atmega328&lt;/h3&gt;
 The Atmel picoPower ATmega328 is a low-power CMOS 8-bit
 microcontroller based on the AVR ® enhanced RISC architecture. By
 executing powerful instructions in a single clock cycle, the ATmega328
@@ -571,8 +571,8 @@ Location: MCU/ATMEL</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA1284P_TQFP" prefix="MCU" uservalue="yes">
-<description>&lt;h3&gt;ATmega1284P TQFP 44pin&lt;/h3&gt;
+<deviceset name="ATMEGA1284P" prefix="MCU" uservalue="yes">
+<description>&lt;h3&gt;Atmel ATmega1284P&lt;/h3&gt;
 The Atmel picoPower ATmega1284P is a low-power CMOS 8-bit
 microcontroller based on the AVR ® enhanced RISC architecture. By
 executing powerful instructions in a single clock cycle, the ATmega1284P
@@ -638,8 +638,8 @@ Location: MCU/ATMEL</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA328_PDIP" prefix="MCU" uservalue="yes">
-<description>&lt;h3&gt;Atmega328 PDIP 28pin&lt;/h3&gt;
+<deviceset name="ATMEGA328-PDIP28" prefix="MCU" uservalue="yes">
+<description>&lt;h3&gt;Atmega328&lt;/h3&gt;
 The Atmel picoPower ATmega328 is a low-power CMOS 8-bit
 microcontroller based on the AVR ® enhanced RISC architecture. By
 executing powerful instructions in a single clock cycle, the ATmega328
@@ -689,8 +689,8 @@ Location: MCU/ATMEL</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA328P_PDIP" prefix="MCU" uservalue="yes">
-<description>&lt;h3&gt;Atmega328P PDIP 28pin&lt;/h3&gt;
+<deviceset name="ATMEGA328P-PDIP28" prefix="MCU" uservalue="yes">
+<description>&lt;h3&gt;Atmega328P&lt;/h3&gt;
 The Atmel picoPower ATmega328P is a low-power CMOS 8-bit
 microcontroller based on the AVR ® enhanced RISC architecture. By
 executing powerful instructions in a single clock cycle, the ATmega328P
